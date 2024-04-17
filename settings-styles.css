@@ -1,0 +1,135 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.header-container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.header-container .nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-container .nav-list-elem {
+    margin: 0 10px;
+    margin-right: 60px;
+}
+
+.header-container .nav-list-elem a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header-container .user-profile {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.user-profile a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-info,
+.notifications {
+    width: calc(50% - 10px);
+    margin-right: 20px;
+}
+
+.analytics {
+    flex: 1;
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.personal-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header {
+    display: flex;
+    align-items: center;
+}
+
+.info-header h3 {
+    margin-right: 10px;
+}
+
+.messengers {
+    display: flex;
+    align-items: center;
+}
+
+.messengers img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.notifications {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.email-notifications,
+.messenger-notifications {
+    flex: 1;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-notifications h2,
+.messenger-notifications h2 {
+    margin-bottom: 10px;
+}
+
+.analytics {
+    position: relative;
+    margin-top: 20px;
+}
+
+.phone-info {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.phone-info h3 {
+    margin-right: 10px;
+}

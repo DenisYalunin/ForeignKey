@@ -1,125 +1,131 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Главная страница</title>
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <img src="#" class="logo" alt="Логотип"> 
-                <ul class="nav-list">
-                    <li class="nav-list-elem"><a href="#">Преимущества</a></li>
-                    <li class="nav-list-elem"><a href="#">Возможности</a></li>
-                    <li class="nav-list-elem"><a href="#">Тарифы</a></li>
-                    <li class="nav-list-elem"><a href="#">Интеграции</a></li>
-                    <li class="nav-list-elem"><a href="#">Решения</a></li>
-                </ul>
-                <div class="user-profile">
-                    <a href="#">Личный кабинет</a>                  
-                    <img src="#" class="avatar" alt="Аватар">         
-                </div>      
-            </nav>
-        </header>
-        <main>
-            <div class="welcome-banner">
-                <div class="welcome-banner-content">
-                    <h1>Расскажите о своих услугах за 159 ₽</h1>
-                    <p>Ваш бизнес начинается с сайта - запустите его за 15 минут, без программистов и дизайнеров</p>
-                    <img src="banner_image_with_button.jpg" alt="Welcome Banner" class="banner-img">
-                    <div class="create-site-button-block">
-                        <button class="banner-button" onclick="window.location.href='link_to_action'">Создать сайт</button>
-                        <p>14 дней бесплатно</p>
-                    </div>                   
+
+<head>
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="main-page-styles.css">
+</head>
+
+<body>
+    <header class="header-container">
+        <nav>
+            <img src="#" class="logo" alt="Выход">
+            <ul class="nav-list">
+                <li class="nav-list-elem"><a href="#">Конструктор</a></li>
+                <li class="nav-list-elem"><a href="#">Заказы</a></li>
+                <li class="nav-list-elem"><a href="#">Товары</a></li>
+                <li class="nav-list-elem"><a href="#">Аналитика</a></li>
+                <li class="nav-list-elem"><a href="#">Клиенты</a></li>
+            </ul>
+            <div class="user-profile">
+                <a href="#">Личный кабинет</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="welcome-banner">
+            <div class="welcome-banner-content">
+                <h1>Расскажите о своих услугах за 159 ₽</h1>
+                <p>Ваш бизнес начинается с сайта - запустите его за 15 минут, без программистов и дизайнеров</p>
+                <img src="banner_image_with_button.jpg" alt="Welcome Banner" class="banner-img">
+                <div class="create-site-button-block">
+                    <button class="banner-button" onclick="window.location.href='link_to_action'">Создать сайт</button>
+                    <p>14 дней бесплатно</p>
                 </div>
             </div>
-            <div class="action-block">
-                <div class="action-step">
-                    <img src="#" alt="Шаг 1">
-                    <h2>Соберите основу магазина</h2>
-                    <p>Придумайте название, адрес сайта и добавьте разделы, например, информацию о компании и условия доставки</p>
-                </div>
-                <div class="action-step">
-                    <img src="#" alt="Шаг 2">
-                    <h2>Выберите оформление</h2>
-                    <p>Шаблоны уже готовы - вам не придется думать о дизайне каждой страницы</p>
-                </div>
-                <div class="action-step">
-                    <img src="#" alt="Шаг 3">
-                    <h2>Настройте каталог товаров и услуг</h2>
-                    <p>Добавьте описания, фотографии и цены. Вы можете указывать скидки и предлагать оплату в кредит</p>
+        </div>
+        <div class="action-block">
+            <div class="action-step">
+                <img src="#" alt="Шаг 1">
+                <h2>Соберите основу магазина</h2>
+                <p>Придумайте название, адрес сайта и добавьте разделы, например, информацию о компании и условия
+                    доставки</p>
+            </div>
+            <div class="action-step">
+                <img src="#" alt="Шаг 2">
+                <h2>Выберите оформление</h2>
+                <p>Шаблоны уже готовы - вам не придется думать о дизайне каждой страницы</p>
+            </div>
+            <div class="action-step">
+                <img src="#" alt="Шаг 3">
+                <h2>Настройте каталог товаров и услуг</h2>
+                <p>Добавьте описания, фотографии и цены. Вы можете указывать скидки и предлагать оплату в кредит</p>
+            </div>
+        </div>
+        <div class="benefits-block">
+            <div class="benefit">
+                <img src="benefit1.jpg" alt="Benefit 1">
+                <h2>Визуальный редактор</h2>
+                <p>Удобный редактор: делайте сайты без специальных навыков вёрстки и веб-дизайна</p>
+            </div>
+            <div class="benefit">
+                <img src="benefit2.jpg" alt="Benefit 2">
+                <h2>Быстрая работа</h2>
+                <p>Библиотека из 450+ современных и адаптивных шаблонов: вам нужно только наполнить их своим контентом и
+                    изображениями</p>
+            </div>
+            <div class="benefit">
+                <img src="benefit3.jpg" alt="Benefit 3">
+                <h2>Необходимые интеграции</h2>
+                <p>Расширяйте функционал доступными модулями: рассылки, платёжные системы, чаты и т.д.</p>
+            </div>
+        </div>
+        <video width="854" height="480" controls>
+            <source src="video.mp4" type="video/mp4">
+            Ваш браузер не поддерживает воспроизведение видео.
+        </video>
+        <div class="banner-crm">
+            <h2>Обрабатывайте заявки в CRM</h2>
+            <p>Все входящие обращения сразу заносятся в CRM и попадают менеджерам. CRM подскажет, что нужно делать и
+                поможет вести покупателя
+                по воронке: от первого контакта до покупки.
+            </p>
+            <a href="#" class="download-button">Скачать CRM</a>
+        </div>
+        <div class="banner-sign-up-and-try">
+            <h2>Попробуйте сейчас</h2>
+            <p>14 дней бесплатно. За это время вы успеете создать свой сайт, узнать возможности платформы и понять,
+                подходит ли вам наш сервис</p>
+            <a href="#" class="register-button">
+                <img src="#" alt="Попробовать бесплатно">
+            </a>
+        </div>
+        <div class="faq-block">
+            <h2>Частые вопросы о создании сайтов</h2>
+            <div class="faq-item">
+                <h3>Как купить свой домен?</h3>
+                <div class="answer">
+                    <p>Ответ на вопрос 1</p>
                 </div>
             </div>
-            <div class="benefits-block">
-                <div class="benefit">
-                    <img src="benefit1.jpg" alt="Benefit 1">
-                    <h2>Визуальный редактор</h2>
-                    <p>Удобный редактор: делайте сайты без специальных навыков вёрстки и веб-дизайна</p>
+            <div class="faq-item">
+                <h3>Как привязать свой домен к конструктору сайтов?</h3>
+                <div class="answer">
+                    <p>Ответ на вопрос 2</p>
                 </div>
-                <div class="benefit">
-                    <img src="benefit2.jpg" alt="Benefit 2">
-                    <h2>Быстрая работа</h2>
-                    <p>Библиотека из 450+ современных и адаптивных шаблонов: вам нужно только наполнить их своим контентом и изображениями</p>
-                </div>
-                <div class="benefit">
-                    <img src="benefit3.jpg" alt="Benefit 3">
-                    <h2>Необходимые интеграции</h2>
-                    <p>Расширяйте функционал доступными модулями: рассылки, платёжные системы, чаты и т.д.</p>
-                </div>             
             </div>
-            <video width="854" height="480" controls>
-                    <source src="video.mp4" type="video/mp4">
-                    Ваш браузер не поддерживает воспроизведение видео.
-            </video>
-            <div class="banner-crm">
-                <h2>Обрабатывайте заявки в CRM</h2>
-                <p>Все входящие обращения сразу заносятся в CRM и попадают менеджерам. CRM подскажет, что нужно делать и поможет вести покупателя 
-                    по воронке: от первого контакта до покупки.
-                </p>
-                <a href="#" class="download-button">Скачать CRM</a>
+            <div class="faq-item">
+                <h3>Сколько доменов я могу подключить к сайту?</h3>
+                <div class="answer">
+                    <p>Ответ на вопрос 3</p>
+                </div>
             </div>
-            <div class="banner-sign-up-and-try">
-                <h2>Попробуйте сейчас</h2>
-                <p>14 дней бесплатно. За это время вы успеете создать свой сайт, узнать возможности платформы и понять, подходит ли вам наш сервис</p>
-                <a href="#" class="register-button">
-                    <img src="#" alt="Попробовать бесплатно">
-                </a>
+            <div class="faq-item">
+                <h3>Можно ли использовать домены на кириллице?</h3>
+                <div class="answer">
+                    <p>Ответ на вопрос 4</p>
+                </div>
             </div>
-            <div class="faq-block">
-                <h2>Частые вопросы о создании сайтов</h2>
-                <div class="faq-item">
-                    <h3>Как купить свой домен?</h3>
-                    <div class="answer">
-                        <p>Ответ на вопрос 1</p>
-                    </div>
+            <div class="faq-item">
+                <h3>Как настроить протокол HTTPS и SSL-сертификат?</h3>
+                <div class="answer">
+                    <p>Ответ на вопрос 5</p>
                 </div>
-                <div class="faq-item">
-                    <h3>Как привязать свой домен к конструктору сайтов?</h3>
-                    <div class="answer">
-                        <p>Ответ на вопрос 2</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <h3>Сколько доменов я могу подключить к сайту?</h3>
-                    <div class="answer">
-                        <p>Ответ на вопрос 3</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <h3>Можно ли использовать домены на кириллице?</h3>
-                    <div class="answer">
-                        <p>Ответ на вопрос 4</p>
-                    </div>
-                </div>
-                <div class="faq-item">
-                    <h3>Как настроить протокол HTTPS и SSL-сертификат?</h3>
-                    <div class="answer">
-                        <p>Ответ на вопрос 5</p>
-                    </div>
-                </div>
-            </div>           
-        </main>
-        <footer>
-        </footer>
-    </body>
+            </div>
+        </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+
 </html>
