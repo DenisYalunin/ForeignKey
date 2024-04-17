@@ -1,0 +1,75 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+video {
+    display: block; 
+    margin: 40px auto;
+}
+
+.logo {
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list-elem {
+    margin: 0 10px;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.welcome-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.welcome-banner-content {
+    text-align: center;
+}
+
+.action-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefits-block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.banner-crm {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.banner-sign-up-and-try {
+    text-align: center;
+    margin: 40px auto;
+}
+
+.faq-block {
+    text-align: center;
+    margin: 40px auto;
+}
