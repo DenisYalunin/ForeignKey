@@ -5,6 +5,11 @@ header {
     padding: 10px 20px;
 }
 
+body {
+    background-color: #E5E5FE;
+    ;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
