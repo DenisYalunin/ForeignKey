@@ -1,0 +1,180 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #E5E5FE;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-list-elem {
+    margin-right: 60px;
+}
+
+.nav-list-elem a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.user-profile a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 70px;
+}
+
+.exit {
+    width: 100%;
+    height: auto;
+}
+
+.exit-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.exit-container a {
+    position: relative;
+    width: 90px;
+    height: 100%;
+    display: flex;
+    margin-left: 50px;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+    margin-left: -140px;
+}
+
+.header-item:nth-child(2) {
+    margin-left: 177px;
+    /* Расстояние между "Клиент" и "Контакты" */
+}
+
+.header-item:nth-child(3) {
+    margin-left: 106px;
+    /* Расстояние между "Контакты" и "Номер заказа" */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.users-blocks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.entries,
+.pages {
+    display: flex;
+    align-items: center;
+}
+
+.entries span {
+    margin-right: 10px;
+}
+
+.entry,
+.page {
+    margin-right: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.active {
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.entries {
+    margin-left: 40px;
+}
+
+.entries,
+.pages {
+    display: flex;
+    align-items: center;
+}
+
+.entries span {
+    margin-right: 10px;
+}
+
+.entry,
+.page {
+    margin-right: 5px;
+    text-decoration: none;
+    color: #000;
+}
+
+.active {
+    font-weight: bold;
+}
+
+/* Добавляем отступ между стрелочками */
+.pages img {
+    margin-right: 20px;
+}
+
+.pages .page:first-child {
+    margin-right: 20px;
+    /* Отступ между первым элементом и стрелочками */
+}
+
+.pages .page:last-child,
+.pages img:last-child {
+    margin-left: 20px;
+    /* Отступ между последним элементом и стрелочками */
+}
