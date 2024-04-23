@@ -4,12 +4,18 @@
 <head>
     <title>Главная страница</title>
     <link rel="stylesheet" href="main-page-styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap">
 </head>
 
 <body>
     <header class="header-container">
         <nav>
-            <button class="exit-button" onclick="exitFunction()"></button>
+            <div class="exit-container">
+                <a href="#">
+                    <img src="../Project/img/exit_button.png" class="exit" alt="Выйти">
+                    <span class="exit-text">Выйти</span>
+                </a>
+            </div>
             <ul class="nav-list">
                 <li class="nav-list-elem"><a href="#">Конструктор</a></li>
                 <li class="nav-list-elem"><a href="#">Заказы</a></li>

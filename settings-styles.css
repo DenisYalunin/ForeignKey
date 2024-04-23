@@ -1,3 +1,11 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #E5E5FE;
+    margin: 0;
+    padding: 0;
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -5,30 +13,20 @@ header {
     padding: 10px 20px;
 }
 
-body {
-    background-color: #E5E5FE;
-    ;
-}
-
 nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
+    padding: 10px 20px;
+    z-index: 1000;
 }
 
-.logo {
-    margin-left: 50px;
-}
-
-.header-container nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex: 1;
-}
-
-.header-container .nav-list {
+.nav-list {
     display: flex;
     justify-content: center;
     list-style-type: none;
@@ -36,105 +34,42 @@ nav {
     margin: 0;
 }
 
-.header-container .nav-list-elem {
-    margin: 0 10px;
+.nav-list-elem {
     margin-right: 60px;
 }
 
-.header-container .nav-list-elem a {
+.nav-list-elem a {
     text-decoration: none;
     color: inherit;
-}
-
-.header-container .user-profile {
-    display: flex;
-    align-items: center;
-    margin-right: 50px;
 }
 
 .user-profile a {
     text-decoration: none;
     color: inherit;
+    margin-right: 70px;
 }
 
-.main {
-    display: flex;
-    flex-wrap: wrap;
+.exit {
+    width: 100%;
+    height: auto;
 }
 
-.profile-info,
-.notifications {
-    width: calc(50% - 10px);
-    margin-right: 20px;
+.exit-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #FFFFFF;
 }
 
-.analytics {
-    flex: 1;
-    margin-top: 20px;
-}
-
-.avatar {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-right: 20px;
-}
-
-.personal-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.info-header {
-    display: flex;
-    align-items: center;
-}
-
-.info-header h3 {
-    margin-right: 10px;
-}
-
-.messengers {
-    display: flex;
-    align-items: center;
-}
-
-.messengers img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-}
-
-.notifications {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-
-.email-notifications,
-.messenger-notifications {
-    flex: 1;
-    margin-right: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-.email-notifications h2,
-.messenger-notifications h2 {
-    margin-bottom: 10px;
-}
-
-.analytics {
+.exit-container a {
     position: relative;
-    margin-top: 20px;
-}
-
-.phone-info {
+    width: 90px;
+    height: 100%;
     display: flex;
+    margin-left: 50px;
     align-items: center;
-    margin-top: 10px;
-}
-
-.phone-info h3 {
-    margin-right: 10px;
 }
